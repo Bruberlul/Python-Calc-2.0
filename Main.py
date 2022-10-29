@@ -1,8 +1,5 @@
 #calculator using no packages
 
-from numpy import subtract
-
-
 solution = 0
 answers = []
 keep_going = True
