@@ -42,7 +42,7 @@ while keep_going == True:
             result = ', '.join(str(item) for item in answers)
             print("Your previous answers are: " + result)
     
-    #OPERATIONS -------------------------------------------------------------------------------------------------------------------------------------------------------
+    #OPERATIONS ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
     userinput.lower()
 
@@ -71,7 +71,7 @@ while keep_going == True:
         print("The solution is: " + str(solution))
     
 
-    #ASKING AND VERIFYING CONTINUATION OR QUITTING --------------------------------------------------------------------------------------------------------------------
+    #ASKING AND VERIFYING CONTINUATION OR QUITTING -----------------------------------------------------------------------------------------------------------------------
 
     while True:
         userinput = input("Do you want to QUIT or CONTINUE: ") 
